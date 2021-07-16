@@ -46,7 +46,7 @@ public class BaseClass {
 	
 	@AfterMethod
 	public void teardown() {
-		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
 		driver.close();
 	}
 	
