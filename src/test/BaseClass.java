@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.asserts.SoftAssert;
+//import org.testng.asserts.SoftAssert;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -27,7 +27,7 @@ public class BaseClass {
 	XSSFWorkbook wbook;
 	protected XSSFSheet sheet;
 	
-	SoftAssert soft = new SoftAssert();
+	//SoftAssert soft = new SoftAssert();
 	
 	@BeforeMethod
 	public void setup() throws IOException {
