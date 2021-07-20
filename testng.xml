@@ -3,8 +3,8 @@
 
 
 <suite name="Suite1">
-  <parameter name="username" value="krishnaveni.r@healsoftware.ai"/>
-  <parameter name="password" value="Krishna@07"/>
+  <parameter name="username" value="krishn@abc.ai"/>
+  <parameter name="password" value="Krishna"/>
 	<test thread-count="5" name="test">
     	<classes>
       	<class name="test.LoginTesting"/>
